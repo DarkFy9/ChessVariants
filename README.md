@@ -1,6 +1,6 @@
 # Chess Variants - AI Battle Arena
 
-A React-based chess application featuring unconventional AI algorithms and AI vs AI watch mode. Inspired by Tom's exploration of over 30 deliberately "lousy" chess algorithms, this project brings quirky AI opponents like "Worstfish", "Swarm", and "Huddle" to life with modern web technology.
+A React-based chess application featuring unconventional AI algorithms and AI vs AI watch mode. Inspired by Suckerpinch's "30 Weird Chess Algorithms: Elo World" algorithms, this project brings those AI opponents into a easily playable format.
 
 ## Features
 
@@ -23,7 +23,7 @@ A React-based chess application featuring unconventional AI algorithms and AI vs
 - **Worstfish** - Intentionally plays the worst moves possible
 
 ### Future AI Implementations
-Planned unconventional algorithms inspired by Tom's research:
+Planned unconventional algorithms based on video:
 
 #### Chess-Oriented Strategies
 - **CCCP** - Checkmate, Check, Capture, Push priority system
@@ -40,7 +40,7 @@ Planned unconventional algorithms inspired by Tom's research:
 - **Pi/E Moves** - Moves based on digits of mathematical constants
 - **Minimum Opponent** - Leaves opponent with fewest legal moves
 
-#### "Wimpy" Strategies
+#### "Weird" Strategies
 - **Pacifist** - Avoids all captures and checks
 - **Generous** - Constantly offers pieces for capture
 - **No, I Insist** - Forces opponent to capture pieces
@@ -50,14 +50,6 @@ Planned unconventional algorithms inspired by Tom's research:
 - Pause/play controls
 - Real-time move tracking
 - Material advantage display
-
-### Game Features
-- Player color selection (White/Black)
-- Move history tracking
-- Captured pieces display
-- Material advantage calculation
-- Threefold repetition detection
-- Check/checkmate/stalemate detection
 
 ## Tech Stack
 
@@ -132,21 +124,9 @@ src/
 - **Huddle**: Minimizes distance from own pieces to own king
 - **Random**: Selects from all legal moves randomly
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
-- Inspired by **Tom's research** on unconventional chess algorithms (30+ "deliberately lousy" chess AI strategies)
-- Built with modern React and TypeScript best practices
+- Inspired by https://www.youtube.com/watch?v=DpXy041BIlA "30 Weird Chess Algorithms: Elo World" - suckerpinch
+- Built with modern React and TypeScript
 - Stockfish chess engine for traditional AI opponents
 - chess.js library for game logic and move validation
