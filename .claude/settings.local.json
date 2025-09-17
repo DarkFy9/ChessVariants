@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Read(**)",
+      "Write(**)",
+      "Read(/C:\\Dev\\VSCODE\\Chess variants\\src\\components/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
